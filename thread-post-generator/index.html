@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread Post Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts for updated typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="brand">
+                <h1>ThreadGen</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#generator">Generate</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Updated Menu Toggle Button -->
+            <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h2>Create Engaging Threads Effortlessly</h2>
+                    <p>Generate captivating thread posts with just a few clicks.</p>
+                    <a href="#generator" class="btn">Get Started</a>
+                </div>
+                <!-- Removed 3D Sphere Element -->
+            </section>
+            <hr class="section-separator">
+
+            <!-- Thread Generator Section -->
+            <section id="generator" class="generator-section">
+                <h3>Generate Your Thread</h3>
+                <form id="threadForm">
+                    <div class="form-group">
+                        <label for="title">Thread Title</label>
+                        <input type="text" id="title" name="title" placeholder="Enter thread title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="content">Thread Content</label>
+                        <textarea id="content" name="content" rows="6" placeholder="Enter thread content" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Generate Thread</button>
+                </form>
+                <div id="generatedThread" class="generated-thread hidden">
+                    <!-- Generated thread will appear here -->
+                </div>
+            </section>
+            <hr class="section-separator">
+
+            <!-- Features Section -->
+            <section id="features" class="features-section">
+                <h3>Features</h3>
+                <div class="features-container">
+                    <div class="feature">
+                        <h4>Easy to Use</h4>
+                        <p>Intuitive interface that allows you to generate threads effortlessly.</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Customizable</h4>
+                        <p>Tailor your threads with various templates and styles to suit your needs.</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Secure</h4>
+                        <p>We prioritize your data security with top-notch protection measures.</p>
+                    </div>
+                </div>
+            </section>
+            <hr class="section-separator">
+
+            <!-- About Us Section -->
+            <section id="about" class="about-section">
+                <h3>About Us</h3>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>At <strong>ThreadGen</strong>, we are dedicated to transforming the way you create engaging threads, making the entire process effortless and enjoyable. Founded and developed by a solo developer with a deep passion for simplifying content creation, ThreadGen  is the result of countless hours of innovation and a commitment to delivering the best possible experience. We leverage cutting-edge technology combined with a user-centric approach to ensure that you have access to powerful, intuitive tools that streamline your workflow and unlock your creative potential. Our mission is to empower you to craft compelling threads with ease and efficiency, all while enjoying the process from start to finish.</p>
+                    </div>
+                    <div class="about-photo">
+                        <img src="images/getimg_ai_img-zUYDch6fa0tHkrvP67Idf.jpeg" alt="About Us">
+                    </div>
+                </div>
+            </section>
+            <hr class="section-separator">
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <h3>Contact Us</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column social-column">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="images/icons/linkedin.svg" alt="LinkedIn Icon">
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <img src="images/icons/twitter.svg" alt="Twitter Icon">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="images/icons/instagram.svg" alt="Instagram Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ThreadGen. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="js/script.js" defer></script>
+    </body>
+</html>
